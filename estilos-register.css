@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%; 
+    
+}
+
+body{
+    
+}
+
+.container-login{
+    font-family: 'Indie Flower', cursive;
+    margin: auto;    
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 35em;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 3em;
+}
+
+.login{
+    width: 40%;
+    background-color: rgb(116, 177, 116);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D1CD56;
+}
+
+.logo{
+    margin: auto;
+    width: 70%;
+}
+.titulo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    margin-bottom: 0.4em;
+}
+
+@media (max-width: 700px){
+
+    .titulo{
+        font-size: 2em;
+    }
+
+    .logo{
+        width: 70%;
+    }
+}
+
+.input-email, .input-nombre-completo{
+    padding: 1em;
+    outline: none;
+    text-align: center;
+    font-size: 1em;
+    border:none;
+    background: #D1CD56;
+    color: black;
+
+}
+
+.input-contraseña{
+    
+    padding: 1em;
+    outline: none;
+    text-align: center;
+    font-size: 1em;
+    border:none;
+    background: #D1CD56;
+    color: black;
+}
+
+.input-email:hover, .input-nombre-completo:hover, .input-contraseña:hover{
+    background-color: #a5a252;
+}
+.boton-iniciar-sesion{
+    background-color: inherit;
+    padding: 1em;
+    border: none;
+    margin-bottom: 1.5em;
+}
+
+.boton-iniciar-sesion:hover{
+    background-color: #a5a252;
+    
+}
+
+.olvidaste{
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 1em;
+}
+.olvidaste:hover{
+    background-color: #a5a252;
+    color: black;
+    
+}
+
+.boton-crear-nueva-cuenta{
+    margin: auto;
+    width: 50%;
+    background-color: #D1CD56;
+    border: none;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.boton-crear-nueva-cuenta:hover{
+    background-color: #a5a252;
+    cursor: pointer;
+    
+}
+
+.imagen-login{
+    height: 100%;
+    width: 100%;
+}
+.imagen{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
